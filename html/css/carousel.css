@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundimage span {
+    color: gold;
+}
+
+.backgroundimage a {
+    color: aliceblue !important;
+    transition: 0.4s !important;
+}
+
+.backgroundimage a:hover {
+    color: gold !important;
+}
+
+.backgroundimage {
+    background-image: url(https://a-static.besthdwallpaper.com/sunset-synthwave-retrowave-wallpaper-2560x1600-81392_7.jpg) !important;
+    width: 100%;
+    height: 80vh;
+    color: whitesmoke;
+}
+
+.backgroundimage #button1 {
+     border-color: aliceblue !important;
+     color:  aliceblue;
+     transition: 0.5s;
+}
+
+
+.backgroundimage #button1:hover {
+    border-color: aliceblue !important;
+    color:  grey;
+    background-color: aliceblue;
+}
+
+.backgroundimage #button2 {
+    border-color: gold !important;
+    color:  aliceblue;
+    background-color: gold;
+    transition: 0.5s;
+}
+
+
+.backgroundimage #button2:hover {
+   border-color: rgb(106, 25, 106) !important;
+   color:  aliceblue;
+   background-color: rgb(106, 25, 106) !important;
+}
+
+
+.container .section  {
+    padding: 80px;
+    
+}
+
+.container .section h2 {
+    justify-content: center;
+    text-align: center;
+    color: #545454;
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+    }
+
+.container .section #p1 {
+justify-content: center;
+text-align: center;
+line-height: 26px;
+font-size: 16px;
+color: #8c9597;
+font-family: lato;
+font-weight: 400;
+}
+
+
+.container .section #p2 {
+    line-height: 26px;
+    font-size: 16px;
+    color: #8c9597;
+    font-family: lato;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.container .section #p3 {
+    line-height: 26px;
+    font-size: 16px;
+    color: red;
+    font-family: lato;
+    font-weight: 400;
+    margin-top: 10px;
+}
+    
+.container .section #p4 {
+    line-height: 26px;
+    font-size: 16px;
+    color: gold;
+    font-family: lato;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.container .section #p5 {
+    line-height: 26px;
+    font-size: 16px;
+    color: rgb(138, 14, 138);
+    font-family: lato;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.container .section .blockflex {
+    display: flex !important;
+    width: 100%;
+}
+
+.blockprogress1 {
+    width: 30%;
+    
+}
+
+.blockprogress2 {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.blockprogress3 {
+    width: 30%;
+    margin-left: 5%;
+}
+
+.portfoliotitle {
+    background-color: #fafafa;
+    width: 100%;
+    min-height: 5vh;
+}
+
+.portfoliotitle h4 {
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    color: #545454;
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+  
+}
+
+.portfoliotitle p {
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    color: #8c9597;
+    font-family: lato;
+    font-weight: 400;
+}
+
+
+/* Center website */
+.main {
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.container img:hover {
+    opacity: 0.75;
+}
+
+#menuspan {
+    color: aliceblue !important;
+    transition:  0.5s;
+}
+
+#menuspan:hover {
+    color: gold !important;
+}
